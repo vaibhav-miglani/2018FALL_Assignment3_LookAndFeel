@@ -7,29 +7,98 @@
 </head>
 <body>
 	<div class="header">
-		<h1>Explore Tampa!</h1>
+		<h1>Explore Mumbai!</h1>
 	</div>
-	<div class="topnav" id="scrollbar">
+	<div class="navigation" id="scrollbar">
 		<a class="active" href="#home">About Us</a>
 		<a href="#Attractions">Attractions</a>
-		<a href="#Buy Tickets">Buy Tickets</a>
-		<a href="#Reviews">Reviews</a>
-		<a href="#Contact">Contact</a>
+		<a href="#Activities">Activities</a>
+		<a href="#Contact">Contact Us</a>
 	</div>
-	<div id="#home">
-		<h2>About</h2>
+	<div id="home">
+		<div class="homecontainer">
+			<img src="./img/home.jpg" style="width:100%;">
+			<div class="centered">Mumbai</div>
+		</div>
 		<p>
 			<b>
-				Discover incredible things to do in Tampa Bay, Florida. Don't just take a vacation  ̶̶  have an adventure! When you bring your
-				family to Tampa Bay, you're in for an exciting time. Whether you're racing through the air on a heart-pounding roller coaster at Busch Gardens,
-				or partying with pirates at the Gasparilla parade, you're in for treasures beyond your wildest dreams.
-				With endless things to do in Tampa Bay you might have a hard time knowing where to start.
-				Take the guess work out and Grab a CityPASS to get tickets for some of the best things to do in Tampa, Florida.
-				Come explore. You won't ever want to leave.
+			Mumbai formerly known as Bombay. It is the capital of  Maharashtra. The city's also famous as it is the heart of bollywood with the presence of
+			hindi film and TV industries. There are lot of cool places to visit from seeing colonial architecture, beaches to amazing night life.
+		    The nights are so radiant that it is called the city that never sleeps.There is lot to explore in this city that has unique bazaars, temples,monuments and India's premier Hotels.
 			</b>
 		</p>
 	</div>
-	
+	<div id="Attractions">
+		<h2>Attractions</h2>
+
+		<div class="row">
+			<div class="column">
+				<img src="./img/gateway.jpg" alt="GatewayofIndia" style="width:100%">
+			</div>
+			<div class="column">
+				<img src="./img/marine.jpg" alt="MarineDrive" style="width:100%">
+			</div>
+			<div class="column">
+				<img src="./img/gateway.jpg" alt="temple" style="width:100%">
+			</div>
+		</div>
+	</div>
+	<div id="Activities">
+		<h2> Activites To Do</h2>
+		<div class="row">
+			<div class="column">
+				<div class="content">
+					<img src="./img/gateway.jpg" alt="Caves" style="width:100%">
+					<h3>Elephanta Caves Tour</h3>
+					<p>
+						Elephanta Caves, a UNESCO World Heritage Site. The walk from the jetty to the cave temple is less than a mile away,
+						board a small toy train from the jetty to the base of the hill. There are seven cave excavations in the Elephanta group. Visit Gateway of IndiaThe colossal structure was constructed in 1924.
+						The gateway overlooks the Mumbai harbor, bordered by the Arabian Sea in the Colaba district
+					</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="content">
+					<img src="./img/download.jpg" alt="Lights" style="width:100%">
+					<h3>Bicycle across City</h3>
+					<p>
+						Cycling is a truly invigorating and liberating experience, enjoyed by people of all ages and from all walks of life.
+						Whether you’re cycling to work, to school, to the shops or just for fun, the humble bicycle is an easy way to get more active.
+						Cycling is an ideal way for to explore your neighbourhood and beyond as a a group especially.
+					</p>
+				</div>
+			</div>
+			<div class="column">
+				<div class="content">
+					<img src="./img/cst.jpg" alt="Cultural" style="width:100%">
+					<h3>City Tour</h3>
+					<p>Explore the whole city for a Day. We will take you to  Gateway Of India,SidhiVinayak Temple, Juhu Beach,CST Railway Station,Taj.
+					
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="contactcontainer" id="Contact">
+		<h2>CONTACT US</h2>
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Please Enter First Name">
+
+			<label for="lname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Please Enter Last Name">
+
+			<label for="country">Country</label>
+			<select id="country" name="country">
+				<option value="india">INDIA</option>
+				<option value="canada">Canada</option>
+				<option value="usa">USA</option>
+			</select>
+			<label for="subject">Subject</label>
+			<textarea id="subject" name="subject" placeholder="Enter...." style="height:200px"></textarea>
+			<input type="submit" value="Submit">
+	</div>
+
 
 </body>
 </html>
